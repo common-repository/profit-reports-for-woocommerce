@@ -1,0 +1,86 @@
+#apply{
+  width: 100px;
+  
+}
+.select-opt{
+  float:right;
+}
+.table-onhold{
+  background-color:lightskyblue;
+}
+.table-completed{
+  background-color:chartreuse;
+}
+.text-red {
+  color: red !important;
+}
+
+table#wcpr-reports thead tr th, table#wcpr-reports tfoot tr td {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+table#wcpr-reports {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+table#wcpr-reports td, table#wcpr-reports th {
+  text-align: center;
+}
+
+table#wcpr-reports + nav.custom-pagination {
+  text-align: right;
+}
+
+table#wcpr-reports + nav.custom-pagination span:first-child {
+  float: left;
+}
+
+table#wcpr-reports + nav.custom-pagination .page-numbers {
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0px 6px;
+  text-decoration: none;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background: lightgrey;
+  margin: 10px 0px;
+}
+
+.codup_pr-widget li {
+  border: 1px solid lightgrey;
+  padding: 1% 2%;
+  margin: 1%;
+}
+
+.codup_pr-widget li:nth-child(-n + 4) {
+    display: inline-block;
+    width: 43%;
+}
+
+.codup_pr-widget li p {
+  margin-bottom: 4px;
+  margin-top: 4px;
+  text-transform: uppercase;
+  color: #9e9e9e;
+  font-weight: bold;
+}
+
+.codup_pr-widget li h3 {
+  color : #27a9ea !important;
+  font-size: 22px !important;
+}
+
+.codup_pr-action {
+  padding: 0px 12px;
+  margin-bottom: 0px;
+}
+
+
+.select2-search__field{
+  margin: 0 !important;
+}
